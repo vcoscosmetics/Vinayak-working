@@ -6,45 +6,104 @@
 }
 
 nav{
-    background-color: #1A4739;
+    background-color: white;
 }
 
 .navbar-nav{
     display: flex;
     justify-content: left;
     width: 100%;
-    font-size: 1rem;
-    font-weight:400;
+    font-size: 1.3rem;
+    font-weight:500;
     z-index: 299999;
 }
 
 .nav-link{
-    color: white;
+    color: rgb(30, 29, 29);
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
 
-.nav-link.active{
-    color: black !important;
+header {
+  
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-section .logo {
+  max-height: 90px;
+}
+
+header .header-section .social-icons {
+  display: flex;
+  gap: 2rem;
+  margin-right: 3rem;
+}
+
+header .header-section .social-icons .social-icon {
+  color: #333;
+  font-size: 1.5rem;
+  
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header .header-section .social-icons .social-icon:hover {
+  color: orangered;
 }
 
 
-header{
-    height: auto;
-    display: flex;
-    justify-content: center;
+header .header-section .contact-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* margin-right: 20px; */
+  font-size: 1.2rem;
+  color: rgb(46, 46, 46);
+  line-height: 2rem;
+  margin-top: 0.5rem;
 }
 
-header .topbar{
-    height: 8rem;
+header .header-section .contact-info p {
+  margin: 0;
+}
+
+header .header-section .contact-info i {
+  margin-right: 8px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  header .header-section {
+      /* flex-direction: column; */
+      /* align-items: flex-start; */
+      align-items: center;
+  }
+
+  header .header-section .social-icons {
+      margin-top: 10px;
+  }
+
+  
+header .header-section .contact-info{
+  display: none;
+}
 
 }
 
-/* .index-second{
+.index-second{
     background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-1.png");
 
-} */
+}
 
 .about-section {
     padding: 60px 0;
@@ -57,7 +116,7 @@ header .topbar{
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-align: center;
-    color: #1A4739;
+    color: rgb(103, 103, 103);
 }
 .about-section .about-text {
     font-size: 1rem;
@@ -107,7 +166,7 @@ header .topbar{
 }
 
 .card-section .card:hover{
-    background-color: #1A4739;
+    background-color: orangered;
     background-image: none;
 }
 
@@ -141,7 +200,7 @@ header .topbar{
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #1A4739;
+    background-color: orangered;
     color: white;
     border: none;
     border-radius: 5px;
@@ -185,7 +244,7 @@ header .topbar{
 }
 .sidebar button {
     padding: 10px;
-    background-color: #1A4739;
+    background-color: orangered;
     color: white;
     border: none;
     border-radius: 5px;
@@ -194,7 +253,9 @@ header .topbar{
 }
 
 .index-third{
-    background-image: url("https://www.curoveda.com/wp-content/uploads/2023/04/BG-2.png");
+  background-image: url("https://www.uniraylifesciences.co.in/wp-content/uploads/2020/01/Ayurvedic-medicines-manufacturers-in-Gurgaon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .why-choose-us .container  .card {
@@ -207,7 +268,7 @@ header .topbar{
 }
 .why-choose-us .container .section-heading {
     text-align: center;
-    color: white;
+    color: whitesmoke;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -276,7 +337,7 @@ header .topbar{
     transform: translate(-50%, -50%);
     max-width: 1280px; */
     width: 100%;
-    background: #0c2920;
+    background: rgb(54, 59, 63);
   }
 
 
@@ -290,7 +351,7 @@ header .topbar{
   }
   
   .footer-row .footer-col h4 {
-    color: #fff;
+    color: rgb(229, 229, 229);
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -359,13 +420,15 @@ header .topbar{
   
   .footer-col .icons {
     display: flex;
-    margin-top: 30px;
+    margin-top: 15px;
     gap: 30px;
-    cursor: pointer;
   }
   
   .footer-col .icons i {
-    color: #afb6c7;
+    color: rgb(225, 222, 222);
+    font-size: 1.5rem;
+    cursor: pointer;
+    
   }
   
   .footer-col .icons i:hover  {
