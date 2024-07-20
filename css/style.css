@@ -289,12 +289,13 @@ header .header-section .contact-info{
 
 .product-range .container .card {
     /* border: 1px solid rgba(0, 0, 0, 0.125); */
-    border-radius: 0.25rem;
+    border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out;
     border: none;
     margin: auto;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(20, 20, 20, 0.2);
+    padding: 1rem 1rem;
     transition: 0.3s;
     /* transform: rotateZ(180deg); */
 
@@ -302,6 +303,7 @@ header .header-section .contact-info{
 
 .product-range .container .card-img-top{
     height: 10rem;
+    border-radius: 15px;
 }
 
 /* .product-range .container  .card:hover {
@@ -527,6 +529,7 @@ header .header-section .contact-info{
   padding: 10px;
   display: flex;
   flex-direction: column;
+  text-align: justify;
   /* justify-content: center; */
 }
 .Infrastructure-profile .container .right {
@@ -562,9 +565,10 @@ header .header-section .contact-info{
   background-color: #f9f9f9;
 }
 .Quality-policy .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 20px;
+  text-align: justify;
 }
 .Quality-policy h2 {
   text-align: center;
