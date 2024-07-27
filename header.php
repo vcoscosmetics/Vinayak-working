@@ -39,10 +39,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link  " aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="company-profile.html">Company Profile</a>
+            <a class="nav-link" href="company-profile.php">Company Profile</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,18 +64,18 @@
               Services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="pcd-franchise.html">Pcd Franchise</a></li>
+              <li><a class="dropdown-item" href="pcd-franchise.php">Pcd Franchise</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
 
-              <li><a class="dropdown-item" href="third-party-services.html">Third Party Manufacturing</a></li>
+              <li><a class="dropdown-item" href="third-party-services.php">Third Party Manufacturing</a></li>
 
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            <a class="nav-link" href="contact-us.php">Contact Us</a>
           </li>
 
         </ul>
